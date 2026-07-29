@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: none;
+}
+
 /* Navbar ------------------------------ */
 .navbar-container {
   width: 100%;
@@ -210,6 +214,21 @@
 }
 
 /* Contact me -------------------------- */
+/* Footer */
+
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.social-items i {
+  margin-right: 20px;
+}
+/* Footer */
 /* Utilities---------------------------- */
 .section-container {
   width: 100%;
